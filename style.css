@@ -161,6 +161,11 @@ div.about-me-desc {
 	display: inline-block;
 }
 
+ul {
+	list-style-type: none;
+	color:var(--colorRose);
+  }
+
 div.about-links {
 	text-align: center;
 }
