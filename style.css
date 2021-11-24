@@ -161,10 +161,16 @@ div.about-me-desc {
 	display: inline-block;
 }
 
-ul {
-	list-style-type: none;
-	color:var(--colorRose);
-  }
+table {
+	border: none;
+	padding-left: 32px;
+	margin-left: 32px;
+	margin-right: 0;
+}
+
+td {
+	padding-right: 5px;
+}
 
 div.about-links {
 	text-align: center;
