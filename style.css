@@ -133,6 +133,7 @@ div.gray-section-1 p {
 	max-width: 380px;
 	margin: auto;
 	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 div.gray-bar {
@@ -146,6 +147,7 @@ h2 {
 	text-align: center;
 	font-size: 34px;
 	margin-top: 0;
+	padding-bottom: 20px;
 }
 
 div.about-me-section {
