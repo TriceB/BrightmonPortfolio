@@ -123,7 +123,7 @@ div.section {
 div.gray-section-1 {
 	background: url(triangle2white.svg) no-repeat center bottom -1px/100%;
 	background-color: var(--colorGray);
-	padding-bottom: 70px;
+	padding-bottom: 60px;
 }
 
 div.gray-section-1 p {
@@ -341,7 +341,7 @@ div.portfolio-header-button a:hover {
 div.portfolio-gray-section {
 	background: url(triangle2white.svg) no-repeat center bottom/100%;
 	background-color: var(--colorGray);
-	padding-bottom: 70px;
+	padding-bottom: 60px;
 	display: grid;
 	grid-template-columns: 0.01fr 1fr;
 	grid-template-areas:
@@ -380,6 +380,7 @@ div.portfolio-gray-section h2 {
 	max-width: 380px;
 	margin: auto;
 	/* padding-top: 0; */
+	padding-bottom: 20px;
 }
 
 div.portfolio-gray-section h1 {
@@ -467,6 +468,16 @@ i {
 	color: var(--colorRose);
 }
 
+@media only screen and (min-width: 1400px) {
+	div.gray-section-1 {
+		padding-bottom: 80px;
+	}
+
+	div.portfolio-gray-section {
+		padding-bottom: 80px;
+	}
+
+}
 
 @media only screen and (max-width: 767px) {
 	/* For mobile phones: */
