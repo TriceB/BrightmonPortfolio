@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/5c564d1979.js" crossorigin="anonymous"></script>
+    <link
+    href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css"
+    rel="stylesheet"  type='text/css'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+
+    <link rel="stylesheet"
+          href="style.css" />
+
+    <style>
+
+    iframe {overflow:hidden}
+
+    div.portfolio-white-section {
+	display: grid;
+	grid-template-columns: 0.01fr 4fr 0.5fr;
+	grid-template-areas:
+		"portWSecVBar portAbout ."
+		". portProjPic ."
+        ". portProjVid ."
+		". portProjLink .";
+	height: 100%;
+	padding-top: 30px;
+	margin-left: 50px;
+}
+
+div.portfolio-project-pic {
+	grid-area: portProjPic;
+	justify-self: center;
+}
+
+
+div.portfolio-project-pic img {
+	width: 65vw;
+	/* justify-items: center; */
+}
+
+.portfolio-project-pic:hover > a > img {
+	/* opacity: 0.8; */
+	transition: opacity 0.5s ease-in-out, transform 0.5s;
+	transform: scale(1.2, 1.2);
+	box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+div.portfolio-project-vid {
+	grid-area: portProjVid;
+	justify-self: center;
+}
+
+    </style>
+    <title>WNBA vs NBA Capstone</title>
+</head>
+<body>
+    <!-- Portfolio Header -->
+    <div class="portfolio-header-grid">
+        <div class="portfolio-vertical-bar"></div>
+
+        <div class="portfolio-header-name">
+            <h3>Mon'Trice Brightmon</h3>
+        </div>
+
+    <div class="portfolio-header-button">
+        <a href="mailto:mnbrightmon@gmail.com?subject=Contact%20From%20mbrightmon.dev">
+            CONTACT ME</a>
+    </div>
+    </div>
+    <!-- Portfolio Gray Section - Title -->
+    <div class="section portfolio-gray-section">
+        <div class="portfolio-back-link">
+            <a href="index.html">Back</a>
+        </div>
+        <div class="portfolio-gray-bar"></div>
+        <div class="portfolio-title-section">
+            <h1>Portfolio</h1>
+
+            <h2>WNBA vs NBA: Analyzing the Player Salary Gap and Revenue Share by League</h2>
+
+
+    </div>
+    </div>
+
+
+    <!-- Portfolio White Section - Content -->
+    <div class="portfolio-white-section">
+        <div class="portfolio-about-vertical-bar">
+
+        </div>
+
+        <div class="portfolio-about-section">
+            <p>This is a Capstone Project completed as a Fellow in the Data Skills 4 All (DS4A) Data Engineering Program by Correlation One.
+                <br><br>
+                Problem: How can we better understand what the pay gap between WNBA and NBA looks like?
+                <br><br>
+                Developed Front-end Data visualiztion using Dash by Plotly featuring data Extracted and aggregated from multiple
+                sources via webscraping, Transformed using Python, and Loaded to AWS S3 for the Data Late and Redshift as the Data
+                Warehouse to create a clearer picture of the salary gap in an interactive way.
+
+                <br><br>
+
+                Recognized among 15% of students selected to receive Walmart Endowed Scholar Award for exceptional performance in the program and extraordinary contribution to the DS4A mission<a href="https://1drv.ms/u/s!AmX8gVbOOZI90xmzH5sDpwimVXRb" target="_blank"> <i class="fa fa-award fa-2x"></i></a></a>
+
+                <br><br>
+
+                <u>Technologies Used:</u>
+
+                <i class="devicon-python-plain-wordmark colored icon"></i>
+                <i class="devicon-pandas-original-wordmark colored icon"></i>
+                <i class="devicon-pycharm-plain-wordmark colored icon"></i>
+                <i class="fa fa-brands fa-aws"></i>
+                <img src="favicon-32x32.png">
+                <i class="devicon-heroku-original-wordmark colored icon"></i>
+
+
+
+            </p>
+
+        </div>
+
+        <div class="portfolio-project-vid" style="margin: 0 auto; width: 60%;">
+
+        <div class="portfolio-project-vid" style="position: relative; padding-bottom: 56.25%; padding-top: 25px; height: 0px;">
+            <iframe src="https://player.vimeo.com/video/730101059" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position:absolute; left: 0px; top: 0px; right: 0px; bottom: 0px; height: 100%; width: 100%;" scrolling="no">
+            </iframe>
+
+        </div>
+        </div>
+        <div class="portfolio-project-pic">
+            <a href="https://1drv.ms/u/s!AmX8gVbOOZI90zSqfEyG9e_9ODhu" target="_blank"><img class="project-photo" src="Group2Datafolio.png"></a>
+        </div>
+
+
+        <div class="portfolio-project-link">
+
+            <a href="https://ds4a-de-group2.herokuapp.com/" target="_blank"><i class="fas fa-external-link-alt fa-2x"></i></a>
+            <a href="https://github.com/msenosain/DS4A-DE-Group2_wnba-nba-salary-gap" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+        </div>
+
+
+    </div>
+
+
+    <!-- Portfolio Frame - Contact -->
+    <div class="section white-section2">
+        <iframe id="contact-iframe" src="contact-frame.html" scrolling="no"></iframe>
+    </div>
+
+
+</body>
+</html>
