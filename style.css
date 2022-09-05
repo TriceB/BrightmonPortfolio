@@ -41,8 +41,8 @@ body {
 }
 
 div.cover {
-	background: url(cover_overlay.png) no-repeat center/100% 100%,
-		url(cover.jpg) no-repeat center/cover;
+	background: url(assets/cover_overlay.png) no-repeat center/100% 100%,
+		url(assets/cover.jpg) no-repeat center/cover;
 	height: 360px;
 }
 
@@ -121,7 +121,7 @@ div.section {
 }
 
 div.gray-section-1 {
-	background: url(triangle2white.svg) no-repeat center bottom -1px/100%;
+	background: url(assets/triangle2white.svg) no-repeat center bottom -1px/100%;
 	background-color: var(--colorGray);
 	padding-bottom: 60px;
 }
@@ -206,7 +206,7 @@ div.text-with-border {
 }
 
 div.gray-section-2 {
-	background: url(triangle1white.svg) no-repeat center top/100%;
+	background: url(assets/triangle1white.svg) no-repeat center top/100%;
 	background-color: var(--colorGray);
 	padding-top: 100px;
 }
@@ -293,7 +293,7 @@ span.small {
 }
 
 div.portfolio-header-grid {
-	background: url(header.jpg) no-repeat center top/cover;
+	background: url(assets/header.jpg) no-repeat center top/cover;
 	display: grid;
 	grid-template-columns: 0.05fr 5fr 2fr;
 	grid-template-areas: "portvertbar portname portbutton";
@@ -339,7 +339,7 @@ div.portfolio-header-button a:hover {
 }
 
 div.portfolio-gray-section {
-	background: url(triangle2white.svg) no-repeat center bottom/100%;
+	background: url(assets/triangle2white.svg) no-repeat center bottom/100%;
 	background-color: var(--colorGray);
 	padding-bottom: 60px;
 	display: grid;
